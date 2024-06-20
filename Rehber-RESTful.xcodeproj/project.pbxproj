@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42407B92C22DD000089A512 /* Rehber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42407B82C22DD000089A512 /* Rehber.swift */; };
+		B42407BB2C22DE690089A512 /* RehberDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42407BA2C22DE690089A512 /* RehberDaoRepository.swift */; };
+		B42407BE2C22E0340089A512 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B42407BD2C22E0340089A512 /* RxSwift */; };
+		B42407C02C22E4880089A512 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42407BF2C22E4880089A512 /* HomeViewModel.swift */; };
+		B42407C22C22E49D0089A512 /* RehberAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42407C12C22E49D0089A512 /* RehberAddViewModel.swift */; };
+		B42407C42C22E4AB0089A512 /* RehberDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42407C32C22E4AB0089A512 /* RehberDetailViewModel.swift */; };
 		B4AF7CAD2C22122D004931C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF7CAC2C22122D004931C4 /* AppDelegate.swift */; };
 		B4AF7CAF2C22122D004931C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF7CAE2C22122D004931C4 /* SceneDelegate.swift */; };
 		B4AF7CB12C22122D004931C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF7CB02C22122D004931C4 /* ViewController.swift */; };
 		B4AF7CB42C22122D004931C4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B4AF7CB32C22122D004931C4 /* Base */; };
 		B4AF7CB62C22122E004931C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AF7CB52C22122E004931C4 /* Assets.xcassets */; };
 		B4AF7CB92C22122E004931C4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B4AF7CB82C22122E004931C4 /* Base */; };
+		B4AF7CC82C221539004931C4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF7CC72C221539004931C4 /* DetailViewController.swift */; };
+		B4AF7CCA2C22154B004931C4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF7CC92C22154B004931C4 /* AddViewController.swift */; };
+		B4AF7CCC2C22189B004931C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF7CCB2C22189B004931C4 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42407B82C22DD000089A512 /* Rehber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rehber.swift; sourceTree = "<group>"; };
+		B42407BA2C22DE690089A512 /* RehberDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberDaoRepository.swift; sourceTree = "<group>"; };
+		B42407BF2C22E4880089A512 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B42407C12C22E49D0089A512 /* RehberAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberAddViewModel.swift; sourceTree = "<group>"; };
+		B42407C32C22E4AB0089A512 /* RehberDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberDetailViewModel.swift; sourceTree = "<group>"; };
 		B4AF7CA92C22122D004931C4 /* Rehber-RESTful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rehber-RESTful.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF7CAC2C22122D004931C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4AF7CAE2C22122D004931C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,9 @@
 		B4AF7CB52C22122E004931C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4AF7CB82C22122E004931C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4AF7CBA2C22122E004931C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4AF7CC72C221539004931C4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B4AF7CC92C22154B004931C4 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		B4AF7CCB2C22189B004931C4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42407BE2C22E0340089A512 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,79 @@
 		B4AF7CAB2C22122D004931C4 /* Rehber-RESTful */ = {
 			isa = PBXGroup;
 			children = (
+				B4AF7CC12C2214C9004931C4 /* data */,
+				B4AF7CC02C2214C4004931C4 /* ui */,
 				B4AF7CAC2C22122D004931C4 /* AppDelegate.swift */,
 				B4AF7CAE2C22122D004931C4 /* SceneDelegate.swift */,
-				B4AF7CB02C22122D004931C4 /* ViewController.swift */,
 				B4AF7CB22C22122D004931C4 /* Main.storyboard */,
 				B4AF7CB52C22122E004931C4 /* Assets.xcassets */,
 				B4AF7CB72C22122E004931C4 /* LaunchScreen.storyboard */,
 				B4AF7CBA2C22122E004931C4 /* Info.plist */,
 			);
 			path = "Rehber-RESTful";
+			sourceTree = "<group>";
+		};
+		B4AF7CC02C2214C4004931C4 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B4AF7CC42C2214E1004931C4 /* views */,
+				B4AF7CC32C2214DB004931C4 /* viewmodel */,
+				B4AF7CC22C2214D5004931C4 /* tableview */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		B4AF7CC12C2214C9004931C4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B4AF7CC62C2214F0004931C4 /* entity */,
+				B4AF7CC52C2214E6004931C4 /* repo */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B4AF7CC22C2214D5004931C4 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				B4AF7CCB2C22189B004931C4 /* TableViewCell.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		B4AF7CC32C2214DB004931C4 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				B42407BF2C22E4880089A512 /* HomeViewModel.swift */,
+				B42407C12C22E49D0089A512 /* RehberAddViewModel.swift */,
+				B42407C32C22E4AB0089A512 /* RehberDetailViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		B4AF7CC42C2214E1004931C4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B4AF7CB02C22122D004931C4 /* ViewController.swift */,
+				B4AF7CC72C221539004931C4 /* DetailViewController.swift */,
+				B4AF7CC92C22154B004931C4 /* AddViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B4AF7CC52C2214E6004931C4 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				B42407BA2C22DE690089A512 /* RehberDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		B4AF7CC62C2214F0004931C4 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B42407B82C22DD000089A512 /* Rehber.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +165,9 @@
 			dependencies = (
 			);
 			name = "Rehber-RESTful";
+			packageProductDependencies = (
+				B42407BD2C22E0340089A512 /* RxSwift */,
+			);
 			productName = "Rehber-RESTful";
 			productReference = B4AF7CA92C22122D004931C4 /* Rehber-RESTful.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,9 @@
 				Base,
 			);
 			mainGroup = B4AF7CA02C22122D004931C4;
+			packageReferences = (
+				B42407BC2C22E0340089A512 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = B4AF7CAA2C22122D004931C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42407C42C22E4AB0089A512 /* RehberDetailViewModel.swift in Sources */,
+				B42407C22C22E49D0089A512 /* RehberAddViewModel.swift in Sources */,
+				B42407BB2C22DE690089A512 /* RehberDaoRepository.swift in Sources */,
+				B42407C02C22E4880089A512 /* HomeViewModel.swift in Sources */,
+				B42407B92C22DD000089A512 /* Rehber.swift in Sources */,
+				B4AF7CCA2C22154B004931C4 /* AddViewController.swift in Sources */,
 				B4AF7CB12C22122D004931C4 /* ViewController.swift in Sources */,
 				B4AF7CAD2C22122D004931C4 /* AppDelegate.swift in Sources */,
+				B4AF7CCC2C22189B004931C4 /* TableViewCell.swift in Sources */,
 				B4AF7CAF2C22122D004931C4 /* SceneDelegate.swift in Sources */,
+				B4AF7CC82C221539004931C4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B42407BC2C22E0340089A512 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B42407BD2C22E0340089A512 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B42407BC2C22E0340089A512 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4AF7CA12C22122D004931C4 /* Project object */;
 }
